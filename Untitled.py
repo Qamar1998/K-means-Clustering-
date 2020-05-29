@@ -23,7 +23,8 @@ X, y = make_blobs(n_samples=n_samples,
         centers=3)
 
 # Plot the random blob data
-i =2002
+i =20022
+c = i 
 plt.figure(figsize=(4, 4))
 plt.scatter(X[:, 0], X[:, 1], s=4)
 plt.title(f"No Clusters Assigned")
